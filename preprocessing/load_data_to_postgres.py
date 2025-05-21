@@ -1,7 +1,6 @@
 import csv
 import psycopg2
 
-# Connexion PostgreSQL
 conn = psycopg2.connect(
     dbname="meteo_france",
     user="meteo_user",
